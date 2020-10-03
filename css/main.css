@@ -1,0 +1,66 @@
+:root {
+    --theme-green-1: #3F8C5E;
+    --theme-green-2: #A8C2AF;
+    --theme-green-3: #226035;
+      --theme-black: black;
+      --theme-white: #FFFFFF;
+
+   --large-font-size: 1.5rem;
+  --medium-font-size: 1.25rem;
+   --small-font-size: 1rem;
+
+  --font-family: libre baskerville, serif;
+}
+
+body {
+             color: var(--theme-white);
+  background-color: var(--theme-green-1);
+}
+
+.ui.small.text  { font-size: var(--small-font-size); }
+.ui.medium.text { font-size: var(--medium-font-size); }
+.ui.large.text  { font-size: var(--large-font-size); }
+.ui.italic.text { font-style: italic; }
+.ui.quoted.text {
+        color: var(--content-color);
+  font-family: var(--font-family);
+}
+.ui.secret.text {
+  color: var(--theme-green-1);
+}
+
+p a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+p a:hover {
+  color: var(--theme-black);
+  text-decoration: underline;
+}
+
+
+.ui.segment {
+    font-size: var(--large-font-size);
+  font-family: var(--font-family);
+}
+
+/**
+ * Buttons
+ */
+
+.ui.button {
+  font-family: var(--font-family);
+}
+
+.ui.primary.button {
+             color: var(--theme-green-3);
+  background-color: var(--theme-green-2);
+}
+
+.ui.primary.button:hover,
+.ui.primary.button:focus {
+             color: var(--content-color);
+  background-color: var(--theme-black);
+}
+
