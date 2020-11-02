@@ -64,3 +64,6 @@ body {
   background-color: var(--theme-black);
 }
 
+.ui.modal {
+  color: var(--theme-black);
+}
