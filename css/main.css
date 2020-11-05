@@ -67,3 +67,7 @@ body {
 .ui.modal {
   color: var(--theme-black);
 }
+
+.ui.small.divider {
+  margin: 0.25rem 0;
+}
